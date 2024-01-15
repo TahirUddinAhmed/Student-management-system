@@ -7,3 +7,38 @@
     height: 250px;
     object-fit: cover;
 }
+
+.login-form {
+    /* border: 1px solid red; */
+    width: 520px;
+    margin: 0 auto;
+}
+
+.backbtn {
+    border: 1px solid #898989;
+    width: max-content;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+.backbtn a {
+    text-decoration: none;
+    color: #454444;
+    
+}
+.pwd-field {
+    position: relative;
+}
+.pwd-field .pwdbtn {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-form {
+        /* border: 1px solid red; */
+        width: 90%;
+       
+    }
+  }
