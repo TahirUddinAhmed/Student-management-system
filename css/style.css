@@ -2,3 +2,8 @@
     height: 480px;
     object-fit: cover;
 }
+
+#teacher .card img {
+    height: 250px;
+    object-fit: cover;
+}
